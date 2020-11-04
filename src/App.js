@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './containers/Home/Home';
+
+//1. ItemCounter la estrucuar de las carpetas, useState con dato simple
+//2. UserForm useState con dictionario. 
+//3. ConsoleRepeater useEffect / clean up
+//useContext, React.memo
+
+//Extra
+//customHook!! useRef, useCallback, useMemo
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* NavBar */}
+
+      {/* Containers */}
+      <Home greeting="Bienvenido!" />
+
+      {/* Footer */}
     </div>
   );
 }
