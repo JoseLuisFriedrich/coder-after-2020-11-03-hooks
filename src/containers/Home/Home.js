@@ -1,6 +1,6 @@
 import ItemCounter from '../../components/ItemCounter/ItemCounter';
 import ItemCounterExtraClass from '../../components/ItemCounterExtraClass/ItemCounterExtraClass';
-import UserForm from '../../components/UserForm/UseForm';
+import UserForm from '../../components/UserForm/UserForm';
 import UserFormExtraClass from '../../components/UserFormExtraClass/UserFormExtraClass';
 import ConsoleRepeater from '../../ConsoleRepeater/ConsoleRepeater';
 
