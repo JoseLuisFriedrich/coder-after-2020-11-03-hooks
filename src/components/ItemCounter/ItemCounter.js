@@ -13,7 +13,7 @@ const ItemCounter = ({ initialValue, maxValue, onAdd }) => {
         setCounter(counter + 1);
         // setCounter(prevCounter => prevCounter + 1);
 
-        onAdd(counter);
+        //onAdd(counter);
     }
 
     return (
@@ -25,6 +25,7 @@ const ItemCounter = ({ initialValue, maxValue, onAdd }) => {
             <br />
             <button onClick={decrement}>decrement</button>
             <button onClick={increment}>increment</button>
+            <button onClick={() => onAdd(counter)}>agregar</button>
             <br />
             <br />
             <hr />
